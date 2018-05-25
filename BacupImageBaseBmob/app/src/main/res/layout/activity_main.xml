@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <!-- android:background="@drawable/background"-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="tech.xiaosuo.com.bmob.MainActivity">
+
+<!--    <Button android:id="@+id/scan_img"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/scan_img"
+          android:visibility="gone"
+          />-->
+<RelativeLayout
+    android:id="@+id/button_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/backup_icon_height"
+    >
+    <ImageView
+        android:id="@+id/wave_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/wave"
+        />
+    <ImageView
+        android:id="@+id/backup_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/backup"
+        />
+    <TextView
+        android:id="@+id/click_backup_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_middle"
+        android:layout_centerInParent="true"
+        android:text="@string/click_backup"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/backup_img"
+        android:textSize="@dimen/click_backup_text_zize"
+        />
+
+</RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/progressbar_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/button_layout"
+        android:layout_marginTop="@dimen/margin_top"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_progress"
+            android:textColor="@color/colorWhite"
+            />
+
+        <TextView android:id="@+id/progress_percent_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            />
+        </LinearLayout>
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/main_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:max="100"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/progressbar_ll"
+        >
+        <Button android:id="@+id/backup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_img"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_top_middle"
+            android:layout_marginLeft="@dimen/backup_button_margin_left"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/colorWhite"
+            />
+        <Button android:id="@+id/recover_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restore_img"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_top_middle"
+            android:layout_marginRight="@dimen/backup_button_margin_right"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/colorWhite"
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\wangshumin.WWW.000\.android\build-cache\98ff649ed56d79cd0932e84ee05bde50ffa7aa4a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b3100a19d31102f9dadbd12b8bf2eba90ab9cb87">
+        <dex dex="F:\Work\Bmob\app\build\intermediates\pre-dexed\debug\classes_cb791a587993440719c35e3c8a0280edf1c61b79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Work\Bmob\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="F:\Work\Bmob\app\build\intermediates\pre-dexed\debug\commons-codec-1.9_a7ec3dae07bcd7bdb0049209c54caf3eb376d212.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wangshumin.WWW.000\.android\build-cache\98ff649ed56d79cd0932e84ee05bde50ffa7aa4a\output\jars\libs\BmobSDK_3.6.1_20180420.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12851c11a2bec897225e811e0c9e30a1d51a9dcd">
+        <dex dex="F:\Work\Bmob\app\build\intermediates\pre-dexed\debug\BmobSDK_3.6.1_20180420_bff5c69041b4432dfbf8cbc9c7245dfd99e1f691.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wangshumin.WWW.000\.android\build-cache\98ff649ed56d79cd0932e84ee05bde50ffa7aa4a\output\jars\libs\okio-1.12.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c65ee0a604ff98ecaed12b7dccad20fd959026a3">
+        <dex dex="F:\Work\Bmob\app\build\intermediates\pre-dexed\debug\okio-1.12.0_b346662917f2988168e7fecf58aa93b480917bc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wangshumin.WWW.000\.android\build-cache\98ff649ed56d79cd0932e84ee05bde50ffa7aa4a\output\jars\libs\rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79f0c1e382e8b62e91064ef6b71130dda83f338e">
+        <dex dex="F:\Work\Bmob\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_06909810724d296c908f790bb6e44fa0af6911f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wangshumin.WWW.000\.android\build-cache\98ff649ed56d79cd0932e84ee05bde50ffa7aa4a\output\jars\libs\gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cea3a9be08d0dcf89783b2cc87c8787fdb2a0d12">
+        <dex dex="F:\Work\Bmob\app\build\intermediates\pre-dexed\debug\gson-2.6.2_4ac154557d9a0df470e77855f3fb26333061a6a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wangshumin.WWW.000\.android\build-cache\98ff649ed56d79cd0932e84ee05bde50ffa7aa4a\output\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="84127ad71f76445b8215afceb38e8b05f58eafa6">
+        <dex dex="F:\Work\Bmob\app\build\intermediates\pre-dexed\debug\rxandroid-1.2.0_ff9379d46055e2943632272df77b4f7e6a4df300.jar" />
+    </item>
+
+</items>

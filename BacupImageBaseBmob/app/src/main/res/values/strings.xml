@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">BackUpImage</string>
+    <string name="scan_img">Scan Image</string>
+    <string name="copy_img">Copy Image</string>
+    <string name="data_empty">Has not image</string>
+    <string name="back_img">Backup Image</string>
+    <string name="restore_img">Restore Image</string>
+    <string name="back_img_confirm">Do you want use mobile data back up img?</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="dialog_title">Notice</string>
+    <string name="back_up_fail">Backup Fail</string>
+    <string name="back_up_success">Backup Success</string>
+    <string name="img_is_empty">Image is empty.</string>
+    <string name="network_not_connect">Network is not connected.</string>
+    <string name="read_external_storage_exception">please allow app read/write extenal storage</string>
+    <string name="network_conn_exception">Network Connect Exception</string>
+    <string name="uploading">uploading..</string>
+    <string name="upload_progress">Upload Progress ��</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_short">Register</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="login_progress_message">Loginning...</string>
+    <string name="username_password_error">The username or password error</string>
+    <string name="no_need_backup_error">There are not new image to backup</string>
+    <string name="server_error">Server Error</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="option_settings">Settings</string>
+    <string name="login_out">Login out</string>
+
+    <!--    register info-->
+    <string name="nick_name">Nick name</string>
+    <string name="telphone">Telphone</string>
+    <string name="email">Email</string>
+    <string name="title_activity_register">Register</string>
+    <string name="confirm_password">Repeat password:</string>
+    <string name="register_commit">Commit</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="error_invalid_telnumber">This telnumber is invalid</string>
+    <string name="error_invalid_nickname">The nickname is invalid</string>
+    <string name="password_not_equal">Password is not same</string>
+    <string name="nickname_exist">Nick name exist</string>
+    <string name="email_exist">Email exist</string>
+    <string name="telnumber_exist">Telnumber exist</string>
+    <string name="register_progress_message">Submitting...</string>
+    <string name="pls_connect_network">please connect network</string>
+    <string name="register_sucess">Register sucess,pls login!</string>
+    <string name="file_not_found">File not found</string>
+    <string name="user_invalid">pls login.</string>
+    <string name="click_backup">Click Backup</string>
+    <string name="is_uploading">Uploading...</string>
+    <string name="is_downloading">Donwloading...</string>
+    <string name="recover_success">Recovery Success</string>
+    <string name="no_need_recover">the netword has not new img</string>
+</resources>
